@@ -12,7 +12,7 @@
  */
 var longestPalindrome = function(s) {
     var s_arr = s.split('');
-    
+
     if (s_arr.length < 2) {
         return s;
     }
@@ -30,7 +30,7 @@ var longestPalindrome = function(s) {
             result[0] = left + 1;
             result[1] = right - 1;
         }
-        if (s_arr[i] === s_arr[i + 1]) {
+        if (s_arr[i] === s_arr[i +1]) {
             let left = i - 1;
             let right = i + 2;
             while (s_arr[left] === s_arr[right] && s_arr[left] != undefined) {
