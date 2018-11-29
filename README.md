@@ -9,6 +9,7 @@
 | 6   | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)                                                | [link](/src/6/index.js)  | medium     |
 | 7   | [Reverse Integer](https://leetcode.com/problems/reverse-integer/)                                                    | [link](/src/7/index.js)  | easy       |
 | 8   | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)                                    | [link](/src/8/index.js)  | medium     |
+| 9   | [Palindrome Number](https://leetcode.com/problems/palindrome-number/)                                                | [link](/src/9/index.js)  | easy       |
 | 11  | [container with most water](https://leetcode.com/problems/container-with-most-water/submissions/)                    | [link](/src/11/index.js) | medium     |
 | 15  | [3 Sum](https://leetcode.com/problems/3sum/)                                                                         | [link](/src/15/index.js) | medium     |
 | 18  | [4 sum](https://leetcode.com/problems/4sum/)                                                                         | [link](/src/18/index.js) | medium     |
