@@ -13,5 +13,7 @@
 | 11  | [container with most water](https://leetcode.com/problems/container-with-most-water/submissions/)                    | [link](/src/11/index.js) | medium     |
 | 12  | [ Integer to Roman](https://leetcode.com/problems/integer-to-roman/)                                                 | [link](/src/12/index.js) | medium     |
 | 13  | [ Roman to Integer ](https://leetcode.com/problems/roman-to-integer/)                                                | [link](/src/13/index.js) | easy       |
+| 14  | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)                                        | [link](/src/14/index.js) | easy       |
 | 15  | [3 Sum](https://leetcode.com/problems/3sum/)                                                                         | [link](/src/15/index.js) | medium     |
+| 16  | [3Sum Closest](https://leetcode.com/problems/3sum-closest/)                                                          | [link](/src/16/index.js) | medium     |
 | 18  | [4 sum](https://leetcode.com/problems/4sum/)                                                                         | [link](/src/18/index.js) | medium     |
