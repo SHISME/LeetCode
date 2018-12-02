@@ -11,5 +11,7 @@
 | 8   | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)                                    | [link](/src/8/index.js)  | medium     |
 | 9   | [Palindrome Number](https://leetcode.com/problems/palindrome-number/)                                                | [link](/src/9/index.js)  | easy       |
 | 11  | [container with most water](https://leetcode.com/problems/container-with-most-water/submissions/)                    | [link](/src/11/index.js) | medium     |
+| 12  | [ Integer to Roman](https://leetcode.com/problems/integer-to-roman/)                                                 | [link](/src/12/index.js) | medium     |
+| 13  | [ Roman to Integer ](https://leetcode.com/problems/roman-to-integer/)                                                | [link](/src/13/index.js) | easy       |
 | 15  | [3 Sum](https://leetcode.com/problems/3sum/)                                                                         | [link](/src/15/index.js) | medium     |
 | 18  | [4 sum](https://leetcode.com/problems/4sum/)                                                                         | [link](/src/18/index.js) | medium     |
