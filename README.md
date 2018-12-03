@@ -5,6 +5,7 @@
 | 1   | [two sum](https://leetcode.com/problems/two-sum/)                                                                    | [link](/src/1/index.js)  | easy       |
 | 2   | [add two numbers](https://leetcode.com/problems/add-two-numbers/)                                                    | [link](/src/2/index.js)  | medium     |
 | 3   | [Longest Substring Without Repeating](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [link](/src/3/index.js)  | medium     |
+| 4   | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)                            | [link](/src/4/index.js)  | hard       |
 | 5   | [LLongest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)                       | [link](/src/5/index.js)  | medium     |
 | 6   | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)                                                | [link](/src/6/index.js)  | medium     |
 | 7   | [Reverse Integer](https://leetcode.com/problems/reverse-integer/)                                                    | [link](/src/7/index.js)  | easy       |
