@@ -24,3 +24,4 @@
 | 20  | [ Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                                               | [link](/src/20/index.js) | easy       |
 | 21  | [ Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)                                     | [link](/src/21/index.js) | easy       |
 | 22  | [ Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)                                         | [link](/src/22/index.js) | medium     |
+| 26  | [ Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)           | [link](/src/26/index.js) | medium     |
