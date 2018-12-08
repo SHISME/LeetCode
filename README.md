@@ -23,3 +23,4 @@
 | 19  | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)                  | [link](/src/19/index.js) | medium     |
 | 20  | [ Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                                               | [link](/src/20/index.js) | easy       |
 | 21  | [ Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)                                     | [link](/src/21/index.js) | easy       |
+| 22  | [ Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)                                         | [link](/src/22/index.js) | medium     |
