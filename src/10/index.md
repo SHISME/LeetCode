@@ -45,3 +45,5 @@
 
 0个的情况 `opt[i][j - 2] = true`
 1个以上的的情况 `opt[i - 1][j] && (pattern[j - 2] === '.' || pattern[j - 2] === str[i - 1])`
+
+[答案源码](/src/10/index.js)
