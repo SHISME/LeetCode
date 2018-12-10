@@ -26,4 +26,5 @@
 | 22  | [ Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)                                         | [link](/src/22/index.js) | medium     |
 | 23  | [ Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)                                         | [link](/src/23/index.md) | hard       |
 | 24  | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)                                            | [link](/src/24/index.js) | medium     |
+| 25  | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)                                  | [link](/src/25/index.js) | hard       |
 | 26  | [ Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)           | [link](/src/26/index.js) | easy       |
