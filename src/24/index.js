@@ -5,25 +5,7 @@
  *     this.next = null;
  * }
  */
-
- /**
- * @param {ListNode} head
- * @param {number} n
- * @return {ListNode}
- */
-function ListNode(val) {
-    this.val = val;
-    this.next = null;
-}
-function make_node(arr) {
-    const head = new ListNode(0);
-    let temp_node = head;
-    arr.forEach((num) => {
-        temp_node.next = new ListNode(num);
-        temp_node = temp_node.next;
-    });
-    return head.next;
-}
+const { ListNode, make_node } = require('../utils/');
 
 /** 
  * @param {ListNode} head

@@ -1,34 +1,4 @@
-/**
- * Definition for singly-linked list.
- * function ListNode(val) {
- *     this.val = val;
- *     this.next = null;
- * }
- */
-/**
- * @param {ListNode} head
- * @param {number} n
- * @return {ListNode}
- */
-function ListNode(val) {
-    this.val = val;
-    this.next = null;
-}
-function make_node(arr) {
-    const head = new ListNode(0);
-    let temp_node = head;
-    arr.forEach((num) => {
-        temp_node.next = new ListNode(num);
-        temp_node = temp_node.next;
-    });
-    return head.next;
-}
-
-function make_lists(arrs) {
-    return arrs.map((arr) => {
-        return make_node(arr);
-    });
-}
+const { ListNode, make_node, make_lists } = require('../utils/');
 
 const list_1 = make_node([-8,-7,-6,-3,-2,-2,0,3]);
 const list_2 = make_node([-10,-6,-4,-4,-4,-2,-1,4]);
@@ -105,11 +75,6 @@ var mergeKLists = function(lists) {
     return result.next;
 };
 let temp_node = mergeKLists([list_1,  list_2, list_3, list_4]);
-// let temp_node = mergeKLists([
-//     make_node([-1,5]),
-//     make_node([-1,0,4]),
-//     make_node([2,6]),
-// ]);
 
 while(temp_node) {
     console.log(temp_node.val);
