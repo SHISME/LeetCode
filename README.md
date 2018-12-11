@@ -29,3 +29,4 @@
 | 25  | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)                                  | [link](/src/25/index.js) | hard       |
 | 26  | [ Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)           | [link](/src/26/index.js) | easy       |
 | 27  | [ Remove Element](https://leetcode.com/problems/remove-element/)                                                     | [link](/src/27/index.js) | easy       |
+| 28  | [ Implement strStr()](https://leetcode.com/problems/implement-strstr/)                                               | [link](/src/28/index.md) | easy       |
