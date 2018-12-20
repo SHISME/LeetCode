@@ -32,6 +32,15 @@ function make_lists(arrs) {
 }
 
 
+/**
+ * @param {number[]} arr 
+ * @return {ListNode} 
+ */
+function make_tree(arrs) {
+    va
+}
+
+
 module.exports = {
     ListNode,
     make_node,

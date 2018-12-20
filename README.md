@@ -32,3 +32,4 @@
 | 28  | [ Implement strStr()](https://leetcode.com/problems/implement-strstr/)                                               | [link](/src/28/index.md)  | easy       |
 | 146 | [ LRU Cache ](https://leetcode.com/problems/lru-cache/)                                                              | [link](/src/146/index.js) | hard       |
 | 179 | [ Largest Number ](https://leetcode.com/problems/largest-number/)                                                    | [link](/src/179/index.js) | medium     |
+| 611 | [ Valid Triangle Number ](https://leetcode.com/problems/valid-triangle-number/)                                      | [link](/src/611/index.js) | medium     |
