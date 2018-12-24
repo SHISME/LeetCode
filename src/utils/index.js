@@ -31,13 +31,24 @@ function make_lists(arrs) {
     });
 }
 
-
+function TreeNode(val) {
+    this.val = val;
+    this.left = this.right = null;
+}
+        0
+     1     2
+    3 4   5 6
+   7 8 
 /**
  * @param {number[]} arr 
  * @return {ListNode} 
  */
 function make_tree(arrs) {
-    va
+    const root = new TreeNode(arrs[0]);
+    const result = [root];
+    for (let i = 1; i< arrs.length; i++) {
+
+    }
 }
 
 
