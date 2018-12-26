@@ -1,8 +1,8 @@
- /**
- * @param {ListNode} head
- * @param {number} n
- * @return {ListNode}
- */
+/**
+* @param {ListNode} head
+* @param {number} n
+* @return {ListNode}
+*/
 function ListNode(val) {
     this.val = val;
     this.next = null;
@@ -35,24 +35,39 @@ function TreeNode(val) {
     this.val = val;
     this.left = this.right = null;
 }
-        0
-     1     2
-    3 4   5 6
-   7 8 
+
 /**
  * @param {number[]} arr 
- * @return {ListNode} 
+ * @param {number[]} node_indexs 
+ * @return {ListNode[]} 
  */
-function make_tree(arrs) {
+function make_tree(arrs, node_indexs) {
     const root = new TreeNode(arrs[0]);
     const result = [root];
-    for (let i = 1; i< arrs.length; i++) {
-
+    for (let i = 1; i < arrs.length; i++) {
+        if (arrs[i] !== null) {
+            const node = new TreeNode(arrs[i]);
+            result.push(node);
+            if ((i + 1) % 2 === 0) {
+                result[(i + 1) / 2 - 1].left = node;
+                continue;
+            }
+            result[(i / 2) - 1].right = node;
+        }
     }
+    if (node_indexs !== undefined) {
+        const nodes = [];
+        node_indexs.forEach((index) => {
+            nodes.push(result[index]);
+        });
+        return nodes;
+    }
+    return [];
 }
 
 
 module.exports = {
     ListNode,
     make_node,
+    make_tree,
 };
