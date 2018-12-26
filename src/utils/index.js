@@ -11,7 +11,7 @@ function ListNode(val) {
  * @param {number[]} arr 
  * @return {ListNode} 
  */
-function make_node(arr) {
+function make_list_node(arr) {
     const head = new ListNode(0);
     let temp_node = head;
     arr.forEach((num) => {
@@ -27,7 +27,7 @@ function make_node(arr) {
  */
 function make_lists(arrs) {
     return arrs.map((arr) => {
-        return make_node(arr);
+        return make_list_node(arr);
     });
 }
 
@@ -68,6 +68,6 @@ function make_tree(arrs, node_indexs) {
 
 module.exports = {
     ListNode,
-    make_node,
+    make_list_node,
     make_tree,
 };

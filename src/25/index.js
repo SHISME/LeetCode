@@ -1,4 +1,4 @@
-const { ListNode, make_node } = require('../utils/');
+const { ListNode, make_list_node } = require('../utils/');
 
 /**
  * 思路：
@@ -93,7 +93,7 @@ var reverseKGroup = function (head, k) {
     return head;
 }
 
-let test = make_node([1, 2, 3, 4,5]);
+let test = make_list_node([1, 2, 3, 4,5]);
 test = reverseKGroup(test, 3);
 console.log(test);
 while (test) {

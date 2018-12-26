@@ -5,7 +5,7 @@
  *     this.next = null;
  * }
  */
-const { ListNode, make_node } = require('../utils/');
+const { ListNode, make_list_node } = require('../utils/');
 
 /** 
  * @param {ListNode} head
@@ -36,7 +36,7 @@ var swapPairs = function(head) {
 };
 
 
-const test = make_node([1]);
+const test = make_list_node([1]);
 let temp_node = swapPairs(test);
 
 while(temp_node) {

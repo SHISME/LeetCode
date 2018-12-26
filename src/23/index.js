@@ -1,9 +1,9 @@
-const { ListNode, make_node, make_lists } = require('../utils/');
+const { ListNode, make_list_node, make_lists } = require('../utils/');
 
-const list_1 = make_node([-8,-7,-6,-3,-2,-2,0,3]);
-const list_2 = make_node([-10,-6,-4,-4,-4,-2,-1,4]);
-const list_3 = make_node([-10,-9,-8,-8,-6]);
-const list_4 = make_node([-10,0,4]);
+const list_1 = make_list_node([-8,-7,-6,-3,-2,-2,0,3]);
+const list_2 = make_list_node([-10,-6,-4,-4,-4,-2,-1,4]);
+const list_3 = make_list_node([-10,-9,-8,-8,-6]);
+const list_4 = make_list_node([-10,0,4]);
 
 
 /**

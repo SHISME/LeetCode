@@ -34,5 +34,6 @@
 | 70  | [ Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                                                                | [link](/src/70/index.js)  | easy       |
 | 146 | [ LRU Cache ](https://leetcode.com/problems/lru-cache/)                                                                           | [link](/src/146/index.js) | hard       |
 | 179 | [ Largest Number ](https://leetcode.com/problems/largest-number/)                                                                 | [link](/src/179/index.js) | medium     |
+| 206 | [ Reverse Linked List ](https://leetcode.com/problems/reverse-linked-list/)                                                       | [link](/src/286/index.js) | easy       |
 | 235 | [ Lowest Common Ancestor of a Binary Search Tree ](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [link](/src/235/index.js) | easy       |
 | 611 | [ Valid Triangle Number ](https://leetcode.com/problems/valid-triangle-number/)                                                   | [link](/src/611/index.js) | medium     |
