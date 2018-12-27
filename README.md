@@ -32,6 +32,7 @@
 | 28  | [ Implement strStr()](https://leetcode.com/problems/implement-strstr/)                                                            | [link](/src/28/index.md)  | easy       |
 | 43  | [ Multiply Strings](https://leetcode.com/problems/multiply-strings/)                                                              | [link](/src/43/index.md)  | medium     |
 | 70  | [ Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                                                                | [link](/src/70/index.js)  | easy       |
+| 104 | [ Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/solution/)                             | [link](/src/104/index.js) | easy       |
 | 124 | [ Binary Tree Maximum Path Sum ](https://leetcode.com/problems/binary-tree-maximum-path-sum/)                                     | [link](/src/124/index.js) | hard       |
 | 146 | [ LRU Cache ](https://leetcode.com/problems/lru-cache/)                                                                           | [link](/src/146/index.js) | hard       |
 | 179 | [ Largest Number ](https://leetcode.com/problems/largest-number/)                                                                 | [link](/src/179/index.js) | medium     |
