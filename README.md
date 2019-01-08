@@ -9,7 +9,7 @@
 | 5   | [LLongest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)                                    | [link](/src/5/index.js)   | medium     |
 | 6   | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)                                                             | [link](/src/6/index.js)   | medium     |
 | 7   | [Reverse Integer](https://leetcode.com/problems/reverse-integer/)                                                                 | [link](/src/7/index.js)   | easy       |
-| 8   | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)                                                 | [link](/src/8/index.js)   | medium     |
+| 8   | [String to Integer ](https://leetcode.com/problems/string-to-integer-atoi/)                                                       | [link](/src/8/index.js)   | medium     |
 | 9   | [Palindrome Number](https://leetcode.com/problems/palindrome-number/)                                                             | [link](/src/9/index.js)   | easy       |
 | 10  | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)                                         | [link](/src/10/index.md)  | hard       |
 | 11  | [container with most water](https://leetcode.com/problems/container-with-most-water/submissions/)                                 | [link](/src/11/index.js)  | medium     |
@@ -29,8 +29,9 @@
 | 25  | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)                                               | [link](/src/25/index.js)  | hard       |
 | 26  | [ Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)                        | [link](/src/26/index.js)  | easy       |
 | 27  | [ Remove Element](https://leetcode.com/problems/remove-element/)                                                                  | [link](/src/27/index.js)  | easy       |
-| 28  | [ Implement strStr()](https://leetcode.com/problems/implement-strstr/)                                                            | [link](/src/28/index.md)  | easy       |
+| 28  | [ Implement strStr](https://leetcode.com/problems/implement-strstr/)                                                              | [link](/src/28/index.md)  | easy       |
 | 43  | [ Multiply Strings](https://leetcode.com/problems/multiply-strings/)                                                              | [link](/src/43/index.md)  | medium     |
+| 54  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                                                                     | [link](/src/54/index.js)  | medium     |
 | 62  | [Unique Paths](https://leetcode.com/problems/unique-paths/)                                                                       | [link](/src/62/index.md)  | medium     |
 | 70  | [ Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                                                                | [link](/src/70/index.js)  | easy       |
 | 104 | [ Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/solution/)                             | [link](/src/104/index.js) | easy       |
@@ -38,7 +39,7 @@
 | 141 | [Linked List Cycle ](https://leetcode.com/problems/linked-list-cycle/)                                                            | [link](/src/141/index.js) | easy       |
 | 146 | [ LRU Cache ](https://leetcode.com/problems/lru-cache/)                                                                           | [link](/src/146/index.js) | hard       |
 | 179 | [ Largest Number ](https://leetcode.com/problems/largest-number/)                                                                 | [link](/src/179/index.js) | medium     |
-| 206 | [ Reverse Linked List ](https://leetcode.com/problems/reverse-linked-list/)                                                       | [link](/src/286/index.js) | easy       |
-| 238 | [ Product of Array Except Self ](https://leetcode.com/problems/product-of-array-except-self/)                                     | [link](/src/238/index.js) | easy       |
+| 206 | [ Reverse Linked List ](https://leetcode.com/problems/reverse-linked-list/)                                                       | [link](/src/206/index.js) | easy       |
 | 235 | [ Lowest Common Ancestor of a Binary Search Tree ](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [link](/src/235/index.js) | easy       |
+| 238 | [ Product of Array Except Self ](https://leetcode.com/problems/product-of-array-except-self/)                                     | [link](/src/238/index.js) | easy       |
 | 611 | [ Valid Triangle Number ](https://leetcode.com/problems/valid-triangle-number/)                                                   | [link](/src/611/index.js) | medium     |
