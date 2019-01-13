@@ -30,6 +30,7 @@
 | 26  | [ Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)                        | [link](/src/26/index.js)  | easy       |
 | 27  | [ Remove Element](https://leetcode.com/problems/remove-element/)                                                                  | [link](/src/27/index.js)  | easy       |
 | 28  | [ Implement strStr](https://leetcode.com/problems/implement-strstr/)                                                              | [link](/src/28/index.md)  | easy       |
+| 29  | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)                                                         | [link](/src/29/index.js)  | medium     |
 | 43  | [ Multiply Strings](https://leetcode.com/problems/multiply-strings/)                                                              | [link](/src/43/index.md)  | medium     |
 | 54  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                                                                     | [link](/src/54/index.js)  | medium     |
 | 62  | [Unique Paths](https://leetcode.com/problems/unique-paths/)                                                                       | [link](/src/62/index.md)  | medium     |
