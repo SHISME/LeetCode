@@ -3,40 +3,24 @@
  * @return {number}
  */
 var largestRectangleArea = function(heights) {
-    let left = 0;
-    let right = heights.length - 1;
-    let result = 0;
-    function findMinHeight(left, right) {
-        let minHeightIndex = left;
-        let minHeight = heights[left];
-        left ++;
-        while (left <= right) {
-            if (heights[left] < minHeight) {
-                minHeight = heights[left];
-                minHeightIndex = left;
-            }
-            left ++;
-        }
-        return minHeightIndex;
-    }
-    while (left <= right) {
-        const minHeightIndex = findMinHeight(left, right);
-        const minHeight = heights[minHeightIndex];
-        const leftHeight = heights[left];
-        const rightHeight = heights[right];
-        const area = minHeight * (right - left + 1);
-        result = Math.max(area, result);
-        if (leftHeight <= rightHeight) {
-            left = minHeightIndex + 1;
-        } else {
-            right = minHeightIndex - 1;
-        }
-    }
+   let stack = [];
+   let result = 0;
+   heights.push(0);
+   for (let i = 0; i < heights.length; i++) {
+       const top_index = stack[stack.length - 1];
+       if (stack.length === 0 || heights[i] > heights[top_index]) {
+           stack.push(i);
+       } else {
+           const top_index = stack.pop();
+           result = Math.max(result, heights[top_index] * (stack.length === 0 ? i : (i - stack[stack.length - 1] - 1)));
+           i--;
+       }
+   }
     
     return result;
 };
 
-console.log(largestRectangleArea([0, 2, 0]));
+console.log(largestRectangleArea([0,1,0,2,0,3,0]));
 
 module.exports = {
     id:'84',
