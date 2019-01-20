@@ -12,7 +12,10 @@ var largestRectangleArea = function(heights) {
            stack.push(i);
        } else {
            const top_index = stack.pop();
-           result = Math.max(result, heights[top_index] * (stack.length === 0 ? i : (i - stack[stack.length - 1] - 1)));
+           result = Math.max(
+               result,
+               heights[top_index] * (stack.length === 0 ? i : (i - stack[stack.length - 1] - 1))
+               );
            i--;
        }
    }
@@ -21,6 +24,7 @@ var largestRectangleArea = function(heights) {
 };
 
 console.log(largestRectangleArea([0,1,0,2,0,3,0]));
+console.log(largestRectangleArea([1,2,2]));
 
 module.exports = {
     id:'84',
