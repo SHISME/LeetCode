@@ -31,4 +31,5 @@ module.exports = {
     title:'Largest Rectangle in Histogram',
     url:'https://leetcode.com/problems/largest-rectangle-in-histogram/',
     difficulty:'hard',
+    have_md:true,
 };
