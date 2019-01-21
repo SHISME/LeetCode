@@ -10,7 +10,7 @@ interface RowItem {
     difficulty:string;
     have_md:boolean;
 }
-function insert_to_table(token:any, item:RowItem) {
+function insert_to_table(token:any, item:RowItem):RowItem[]{
     const cells: RowItem[] = token.cells.map((row:string[]) => {
         const title = row[1].match(/\[.*\]/)[0];
         const url = row[1].match(/\(https.*\)/)[0];
@@ -39,7 +39,7 @@ function insert_to_table(token:any, item:RowItem) {
 program.option('-i, --id <id>','The leetcode No', (id) => {
     const readMe = fs.readFileSync('./README.md').toString();
     const tokens = marked.lexer(readMe);
-    const table_token = tokens[1];
+    const table_token = tokens[3];
     const item:RowItem = require('./src/' + id + '/index.js');
     const table_data = insert_to_table(table_token, item);
     const md_table_str = table_data.reduce((res, cur) => {
@@ -50,7 +50,8 @@ program.option('-i, --id <id>','The leetcode No', (id) => {
         return res + row;
     }, '');
     const md_tempalte = fs.readFileSync('./README_TEMPLATE.md').toString();
-    const new_readme_str = md_tempalte.replace('[table_data]', md_table_str);
+    let new_readme_str = md_tempalte.replace('[table_data]', md_table_str);
+    new_readme_str = new_readme_str.replace('[total]', table_data.length.toString());
     fs.writeFile('./README.md', new_readme_str, (err) => {
         if (err) {
             console.error(err);
