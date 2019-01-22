@@ -54,5 +54,5 @@ function create_dull_stack(arr) {
 
 > 需要注意的地方是，由于可能传进来的heights就是一个单调栈，导致没有执行第二步的出栈，我们再一开始的时候会push一个0到heights末尾
 
-
+[源码](./index.js)
 
