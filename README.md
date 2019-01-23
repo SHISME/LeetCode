@@ -1,6 +1,6 @@
 ## LeetCode
 
-当前进度:49
+当前进度:50
 
 | #   | Title                                                                                                                             | javascript                | Difficulty |
 | --- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | ---------- |
@@ -50,6 +50,7 @@
 | 235 | [ Lowest Common Ancestor of a Binary Search Tree ](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [link](/src/235/index.js) | easy       |
 | 238 | [ Product of Array Except Self ](https://leetcode.com/problems/product-of-array-except-self/)                                     | [link](/src/238/index.js) | easy       |
 | 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)                                                   | [link](/src/239/index.js) | hard       |
+| 393 | [UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/)                                                               | [link](/src/393/index.js) | medium     |
 | 456 | [132 Pattern](https://leetcode.com/problems/132-pattern/)                                                                         | [link](/src/456/index.js) | medium     |
 | 611 | [ Valid Triangle Number ](https://leetcode.com/problems/valid-triangle-number/)                                                   | [link](/src/611/index.js) | medium     |
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/)                                                                     | [link](/src/704/index.js) | easy       |
