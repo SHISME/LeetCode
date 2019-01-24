@@ -1,6 +1,6 @@
 ## LeetCode
 
-当前进度:51
+当前进度:52
 
 | #   | Title                                                                                                                             | javascript                | Difficulty |
 | --- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | ---------- |
@@ -48,6 +48,7 @@
 | 146 | [ LRU Cache ](https://leetcode.com/problems/lru-cache/)                                                                           | [link](/src/146/index.js) | hard       |
 | 179 | [ Largest Number ](https://leetcode.com/problems/largest-number/)                                                                 | [link](/src/179/index.js) | medium     |
 | 206 | [ Reverse Linked List ](https://leetcode.com/problems/reverse-linked-list/)                                                       | [link](/src/206/index.js) | easy       |
+| 231 | [Power of Two](https://leetcode.com/problems/power-of-two/)                                                                       | [link](/src/231/index.js) | easy       |
 | 235 | [ Lowest Common Ancestor of a Binary Search Tree ](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [link](/src/235/index.js) | easy       |
 | 238 | [ Product of Array Except Self ](https://leetcode.com/problems/product-of-array-except-self/)                                     | [link](/src/238/index.js) | easy       |
 | 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)                                                   | [link](/src/239/index.js) | hard       |
