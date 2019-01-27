@@ -21,6 +21,14 @@ var maxProfit = function(k, prices) {
     // for (let i = 2; i < prices.length; i++) {
     //     dp_sell[i][k] = Math.max(dp_sell[i - 1][k], );
     // }
+    const dp = prices.map(() => 0);
+    for (let i = 1; i < prices.length; i++) {
+        for (let x = 1; x < k; x++) {
+            
+        }
+    }
+    
+
     function quickProfit(prices) {
         let result = 0;
         for (let i = 1; i< prices.length; i++) {
