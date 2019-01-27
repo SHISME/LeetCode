@@ -29,8 +29,7 @@
  * @param {NestedInteger[]} nestedList
  */
 var NestedIterator = function(nestedList) {
-    this.stack = [nestedList];
-    this.next = null;
+    this.stack = nestedList;
 };
 
 
@@ -39,7 +38,14 @@ var NestedIterator = function(nestedList) {
  * @returns {boolean}
  */
 NestedIterator.prototype.hasNext = function() {
-    return this.current === null;
+    while (this.stack.length > 0) {
+        if (this.stack[0].isInteger()) {
+            return true;
+        }
+        const nestedList = this.stack.shift().getList();
+        this.stack = nestedList.concat(this.stack);
+    }
+    return false;
 };
 
 /**
@@ -47,10 +53,7 @@ NestedIterator.prototype.hasNext = function() {
  * @returns {integer}
  */
 NestedIterator.prototype.next = function() {
-   while (this.stack.length > 0) {
-       const 
-   }
-   return false;
+   return this.stack.shift().getInteger();
 };
 
 /**
@@ -58,3 +61,10 @@ NestedIterator.prototype.next = function() {
  * var i = new NestedIterator(nestedList), a = [];
  * while (i.hasNext()) a.push(i.next());
 */
+
+module.exports = {
+    id:'341',
+    title:'Flatten Nested List Iterator',
+    url:'https://leetcode.com/problems/flatten-nested-list-iterator/',
+    difficulty:'medium',
+};
