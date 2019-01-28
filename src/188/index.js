@@ -12,23 +12,20 @@ var maxProfit = function(k, prices) {
     if (k >= prices.length / 2) {
         return quickProfit(prices);
     }
-    // const dp_sell = [];
-    // const dp_clear = [];
-    // const dp_empty = [];
-    // dp_sell[1][k] = Math.max(-prices[0], -prices[1]);
-    // dp_clear[1][k] = Math.max(0, prices[1] - prices[0]);
-    // dp_empty[1][k] = 0;
-    // for (let i = 2; i < prices.length; i++) {
-    //     dp_sell[i][k] = Math.max(dp_sell[i - 1][k], );
-    // }
-    const dp = prices.map(() => 0);
-    for (let i = 1; i < prices.length; i++) {
-        for (let x = 1; x < k; x++) {
-            
+    const local = prices.map(() => []);
+    const global = prices.map(() => []);
+    for (let i = 0; i < prices.length; i++) {
+        for (let j = 0; j <= k; j++) {
+            if (i > 0 && j > 0) {
+                global[i][j] = Math.max(global[i-1][j], local[i-1][j]);
+                local[i][j] = Math.max(global[i-1][j-1], local[i-1][j]) + prices[i] - prices[i-1];
+            } else {
+                global[i][j] = 0;
+                local[i][j] = 0;
+            }
         }
     }
-    
-
+    return Math.max(local.pop().pop(), global.pop().pop());
     function quickProfit(prices) {
         let result = 0;
         for (let i = 1; i< prices.length; i++) {
@@ -40,8 +37,8 @@ var maxProfit = function(k, prices) {
     }
 };
 
-console.log(maxProfit(5, [1,2,4,2,5,7,2,4,9,0]));
-// console.log(maxProfit(2, [3,2,6,5,0,3,]));
+// console.log(maxProfit(5, [1,2,4,2,5,7,2,4,9,0]));
+console.log(maxProfit(2, [3,2,6,5,0,3,]));
 
 module.exports = {
     title:'Best Time to Buy and Sell Stock IV',
