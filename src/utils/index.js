@@ -70,4 +70,5 @@ module.exports = {
     ListNode,
     make_list_node,
     make_tree,
+    TreeNode,
 };
