@@ -28,3 +28,10 @@ var detectCycle = function(head) {
 };
 
 console.log(detectCycle(head));
+
+module.exports = {
+    id:'142',
+    title:'Linked List Cycle II',
+    url:'https://leetcode.com/problems/linked-list-cycle-ii/',
+    difficulty:'medium',
+};
