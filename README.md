@@ -1,6 +1,6 @@
 ## LeetCode
 
-当前进度:58
+当前进度:62
 
 | #   | Title                                                                                                                             | javascript                | Difficulty |
 | --- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | ---------- |
@@ -36,6 +36,7 @@
 | 32  | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)                                             | [link](/src/32/index.js)  | hard       |
 | 33  | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)                                   | [link](/src/33/index.js)  | medium     |
 | 43  | [ Multiply Strings](https://leetcode.com/problems/multiply-strings/)                                                              | [link](/src/43/index.md)  | medium     |
+| 46  | [Permutations](https://leetcode.com/problems/permutations/)                                                                       | [link](/src/46/index.js)  | medium     |
 | 48  | [Rotate Image](https://leetcode.com/problems/rotate-image/)                                                                       | [link](/src/48/index.js)  | medium     |
 | 54  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                                                                     | [link](/src/54/index.js)  | medium     |
 | 62  | [Unique Paths](https://leetcode.com/problems/unique-paths/)                                                                       | [link](/src/62/index.md)  | medium     |
@@ -43,9 +44,12 @@
 | 84  | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)                                   | [link](/src/84/index.md)  | hard       |
 | 85  | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)                                                             | [link](/src/85/index.js)  | hard       |
 | 104 | [ Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/solution/)                             | [link](/src/104/index.js) | easy       |
+| 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)           | [link](/src/108/index.js) | easy       |
 | 123 | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/submissions/)             | [link](/src/123/index.js) | hard       |
 | 124 | [ Binary Tree Maximum Path Sum ](https://leetcode.com/problems/binary-tree-maximum-path-sum/)                                     | [link](/src/124/index.js) | hard       |
+| 136 | [Single Number](https://leetcode.com/problems/single-number/)                                                                     | [link](/src/136/index.js) | easy       |
 | 141 | [Linked List Cycle ](https://leetcode.com/problems/linked-list-cycle/)                                                            | [link](/src/141/index.js) | easy       |
+| 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)                                                       | [link](/src/142/index.js) | medium     |
 | 146 | [ LRU Cache ](https://leetcode.com/problems/lru-cache/)                                                                           | [link](/src/146/index.js) | hard       |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)                               | [link](/src/160/index.js) | easy       |
 | 179 | [ Largest Number ](https://leetcode.com/problems/largest-number/)                                                                 | [link](/src/179/index.js) | medium     |
