@@ -57,4 +57,5 @@ module.exports = {
     title:'Super Egg Drop',
     url:'https://leetcode.com/problems/super-egg-drop/',
     difficulty:'hard',
+    have_md:true,
 };

@@ -1,6 +1,6 @@
 ## LeetCode
 
-当前进度:62
+当前进度:65
 
 | #   | Title                                                                                                                             | javascript                | Difficulty |
 | --- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | ---------- |
@@ -41,6 +41,7 @@
 | 54  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                                                                     | [link](/src/54/index.js)  | medium     |
 | 62  | [Unique Paths](https://leetcode.com/problems/unique-paths/)                                                                       | [link](/src/62/index.md)  | medium     |
 | 70  | [ Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                                                                | [link](/src/70/index.js)  | easy       |
+| 78  | [Subsets](https://leetcode.com/problems/subsets/)                                                                                 | [link](/src/78/index.js)  | medium     |
 | 84  | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)                                   | [link](/src/84/index.md)  | hard       |
 | 85  | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)                                                             | [link](/src/85/index.js)  | hard       |
 | 104 | [ Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/solution/)                             | [link](/src/104/index.js) | easy       |
@@ -55,6 +56,7 @@
 | 179 | [ Largest Number ](https://leetcode.com/problems/largest-number/)                                                                 | [link](/src/179/index.js) | medium     |
 | 188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)                           | [link](/src/188/index.md) | hard       |
 | 206 | [ Reverse Linked List ](https://leetcode.com/problems/reverse-linked-list/)                                                       | [link](/src/206/index.js) | easy       |
+| 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)                                 | [link](/src/215/index.js) | medium     |
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/)                                                                       | [link](/src/231/index.js) | easy       |
 | 235 | [ Lowest Common Ancestor of a Binary Search Tree ](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [link](/src/235/index.js) | easy       |
 | 238 | [ Product of Array Except Self ](https://leetcode.com/problems/product-of-array-except-self/)                                     | [link](/src/238/index.js) | easy       |
@@ -66,3 +68,4 @@
 | 456 | [132 Pattern](https://leetcode.com/problems/132-pattern/)                                                                         | [link](/src/456/index.js) | medium     |
 | 611 | [ Valid Triangle Number ](https://leetcode.com/problems/valid-triangle-number/)                                                   | [link](/src/611/index.js) | medium     |
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/)                                                                     | [link](/src/704/index.js) | easy       |
+| 887 | [Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)                                                                   | [link](/src/887/index.md) | hard       |

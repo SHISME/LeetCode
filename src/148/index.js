@@ -12,3 +12,10 @@
 var sortList = function(head) {
     
 };
+
+module.exports = {
+    id:'148',
+    url:'https://leetcode.com/problems/sort-list/',
+    difficulty:'medium',
+    title:'Sort List',
+};
