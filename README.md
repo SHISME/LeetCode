@@ -1,6 +1,6 @@
 ## LeetCode
 
-当前进度:71
+当前进度:72
 
 | #   | Title                                                                                                                             | javascript                | Difficulty |
 | --- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | ---------- |
@@ -46,6 +46,7 @@
 | 85  | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)                                                             | [link](/src/85/index.js)  | hard       |
 | 104 | [ Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/solution/)                             | [link](/src/104/index.js) | easy       |
 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)           | [link](/src/108/index.js) | easy       |
+| 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)                           | [link](/src/122/index.js) | easy       |
 | 123 | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/submissions/)             | [link](/src/123/index.js) | hard       |
 | 124 | [ Binary Tree Maximum Path Sum ](https://leetcode.com/problems/binary-tree-maximum-path-sum/)                                     | [link](/src/124/index.js) | hard       |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/)                                                                     | [link](/src/136/index.js) | easy       |
