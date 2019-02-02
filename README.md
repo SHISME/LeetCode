@@ -1,6 +1,6 @@
 ## LeetCode
 
-当前进度:70
+当前进度:71
 
 | #   | Title                                                                                                                             | javascript                | Difficulty |
 | --- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | ---------- |
@@ -53,6 +53,7 @@
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)                                                       | [link](/src/142/index.js) | medium     |
 | 146 | [ LRU Cache ](https://leetcode.com/problems/lru-cache/)                                                                           | [link](/src/146/index.js) | hard       |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)                               | [link](/src/160/index.js) | easy       |
+| 169 | [Majority Element](https://leetcode.com/problems/majority-element/)                                                               | [link](/src/169/index.js) | easy       |
 | 179 | [ Largest Number ](https://leetcode.com/problems/largest-number/)                                                                 | [link](/src/179/index.js) | medium     |
 | 188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)                           | [link](/src/188/index.md) | hard       |
 | 206 | [ Reverse Linked List ](https://leetcode.com/problems/reverse-linked-list/)                                                       | [link](/src/206/index.js) | easy       |

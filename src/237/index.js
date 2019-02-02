@@ -11,14 +11,14 @@
  * @param {ListNode} node
  * @return {void} Do not return anything, modify node in-place instead.
  */
-var deleteNode = function(node) {
-   node.val = node.next.val;
-   node.next = node.next.next;
+var deleteNode = function (node) {
+    node.val = node.next.val;
+    node.next = node.next.next;
 };
 
 module.exports = {
-    url:'https://leetcode.com/problems/delete-node-in-a-linked-list/',
-    id:'237',
-    title:'Delete Node in a Linked List',
-    difficulty:'easy',
+    url: 'https://leetcode.com/problems/delete-node-in-a-linked-list/',
+    id: '237',
+    title: 'Delete Node in a Linked List',
+    difficulty: 'easy',
 };
