@@ -1,6 +1,6 @@
 ## LeetCode
 
-当前进度:72
+当前进度:73
 
 | #   | Title                                                                                                                             | javascript                | Difficulty |
 | --- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | ---------- |
@@ -53,6 +53,7 @@
 | 141 | [Linked List Cycle ](https://leetcode.com/problems/linked-list-cycle/)                                                            | [link](/src/141/index.js) | easy       |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)                                                       | [link](/src/142/index.js) | medium     |
 | 146 | [ LRU Cache ](https://leetcode.com/problems/lru-cache/)                                                                           | [link](/src/146/index.js) | hard       |
+| 148 | [Sort List](https://leetcode.com/problems/sort-list/)                                                                             | [link](/src/148/index.md) | medium     |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)                               | [link](/src/160/index.js) | easy       |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/)                                                               | [link](/src/169/index.js) | easy       |
 | 179 | [ Largest Number ](https://leetcode.com/problems/largest-number/)                                                                 | [link](/src/179/index.js) | medium     |
