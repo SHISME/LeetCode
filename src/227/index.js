@@ -10,41 +10,32 @@
 var calculate = function(s) {
     s = s.replace(/\s+/g,"");
     const num_stack = [];
-    const operator_stack = [];
-    const priority_operator = {
-        '*':(a, b) => a * b,
-        '/':(a, b) => a / b,
-    };
-    const custom_operator = {
-        '+':(a, b) => a + b,
-        '-':(a, b) => a - b,
-    };
+    let num = 0;
+    let sign = '+';
     for (let i = 0; i < s.length; i++) {
-        if (priority_operator[s[i]]) {
-            const last_num = num_stack.pop();
-            const result = priority_operator[s[i]](last_num, parseInt(s[i + 1]));
-            num_stack.push(result);
-            i++;
-            continue;
+        if (/\d/.test(s[i])) {
+            num = num * 10 + parseInt(s[i]);
         }
-        if (custom_operator[s[i]]) {
-            operator_stack.push(s[i]);
-            continue;
+        if (i === s.length - 1 || !/\d/.test(s[i])) {
+            switch (sign) {
+                case '+': num_stack.push(num);break;
+                case '-':num_stack.push(-num);break;
+                case '/':num_stack.push(num_stack.pop() / num);break;
+                case '*':num_stack.push(num_stack.pop() * num);break;
+            }
+            num = 0;
+            sign = s[i];
         }
-        num_stack.push(parseInt(s[i]));
     }
-    operator_stack.forEach((operator) => {
-        const num1 = num_stack.shift();
-        const num2 = num_stack.shift();
-        const result = custom_operator[operator](num1, num2);
-        num_stack.unshift(result);
-    });
-    return Math.floor(num_stack.shift());
+    console.log(num_stack);
+
+    return Math.floor(num_stack.reduce((res, cur) => res + cur, 0));
 };
 
-console.log(calculate('42 + 2'));
+console.log(calculate('14/3*2'));
 // console.log(calculate(" 3/2 "));
 // console.log(calculate('3+5 / 2'));
+// console.log(calculate('2*3+4'));
 
 module.exports = {
     id:'227',
