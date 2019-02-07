@@ -9,27 +9,27 @@
  */
 var calculate = function(s) {
     s = s.replace(/\s+/g,"");
-    const num_stack = [];
-    let num = 0;
-    let sign = '+';
-    for (let i = 0; i < s.length; i++) {
-        if (/\d/.test(s[i])) {
-            num = num * 10 + parseInt(s[i]);
-        }
-        if (i === s.length - 1 || !/\d/.test(s[i])) {
-            switch (sign) {
-                case '+': num_stack.push(num);break;
-                case '-':num_stack.push(-num);break;
-                case '/':num_stack.push(num_stack.pop() / num);break;
-                case '*':num_stack.push(num_stack.pop() * num);break;
-            }
-            num = 0;
-            sign = s[i];
-        }
-    }
-    console.log(num_stack);
-
-    return Math.floor(num_stack.reduce((res, cur) => res + cur, 0));
+     const num_stack = [];
+     let num = 0;
+     let sign = '+';
+     for (let i = 0; i < s.length; i++) {
+         if (/\d/.test(s[i])) {
+             num = num * 10 + parseInt(s[i]);
+         }
+         if (i === s.length - 1 || !/\d/.test(s[i])) {
+             switch (sign) {
+                 case '+': num_stack.push(num);break;
+                 case '-':num_stack.push(-num);break;
+                 case '/':num_stack.push(parseInt(num_stack.pop() / num));break;
+                 case '*':num_stack.push(parseInt(num_stack.pop() * num));break;
+             }
+             num = 0;
+             sign = s[i];
+         }
+     }
+ 
+     return num_stack.reduce((res, cur) => res + cur, 0);
+ 
 };
 
 console.log(calculate('14/3*2'));
