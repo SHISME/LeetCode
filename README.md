@@ -1,6 +1,6 @@
 ## LeetCode
 
-当前进度:80
+当前进度:81
 
 | #   | Title                                                                                                                             | javascript                | Difficulty |
 | --- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | ---------- |
@@ -75,6 +75,7 @@
 | 329 | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)                         | [link](/src/329/index.md) | hard       |
 | 341 | [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)                                       | [link](/src/341/index.js) | medium     |
 | 344 | [Reverse String](https://leetcode.com/problems/reverse-string/)                                                                   | [link](/src/344/index.js) | easy       |
+| 386 | [Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/)                                                 | [link](/src/386/index.js) | medium     |
 | 393 | [UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/)                                                               | [link](/src/393/index.js) | medium     |
 | 456 | [132 Pattern](https://leetcode.com/problems/132-pattern/)                                                                         | [link](/src/456/index.js) | medium     |
 | 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)                                     | [link](/src/557/index.js) | easy       |
