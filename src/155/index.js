@@ -1,8 +1,5 @@
-/**
- * initialize your data structure here.
- */
 var MinStack = function() {
-    this.stack = [];
+    this.stack = []
 };
 
 /** 
@@ -10,43 +7,36 @@ var MinStack = function() {
  * @return {void}
  */
 MinStack.prototype.push = function(x) {
-    if (this.stack.length === 0) {
-        this.stack.push(x);
-        return;
-    }
-    if (this.stack[0] < x) {
-        this.stack.unshift(x);
-        return;
-    }
-    for (let i = this.stack.length - 1; i >= 0; i--) {
-        if (x < this.stack[i] || i === 0) {
-            this.stack.splice(i + 1, 0, x);
-            return;
-        }
-    }
+    let min = this.stack.length === 0 ? x : this.stack[this.stack.length - 1].min
+    this.stack.push({val: x, min: Math.min(min, x)})
 };
 
 /**
  * @return {void}
  */
 MinStack.prototype.pop = function() {
-    return this.stack.pop();
+    if(this.stack.length > 0){
+        this.stack.pop()
+    }
 };
 
 /**
  * @return {number}
  */
 MinStack.prototype.top = function() {
-    return this.stack[0];
+    if(this.stack.length > 0) {
+        return this.stack[this.stack.length - 1].val
+    }
 };
 
 /**
  * @return {number}
  */
 MinStack.prototype.getMin = function() {
-    return this.stack[this.stack.length - 1];
+    if(this.stack.length > 0) {
+        return this.stack[this.stack.length - 1].min
+    }
 };
-
 /** 
  * Your MinStack object will be instantiated and called as such:
  * var obj = Object.create(MinStack).createNew()
