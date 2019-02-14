@@ -1,6 +1,6 @@
 ## LeetCode
 
-当前进度:83
+当前进度:84
 
 | #   | Title                                                                                                                             | javascript                | Difficulty |
 | --- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | ---------- |
@@ -33,6 +33,7 @@
 |27|[ Remove Element](https://leetcode.com/problems/remove-element/)|[link](/src/27/index.js)|easy|
 |28|[ Implement strStr](https://leetcode.com/problems/implement-strstr/)|[link](/src/28/index.md)|easy|
 |29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|[link](/src/29/index.js)|medium|
+|31|[Next Permutation](https://leetcode.com/problems/next-permutation/description/)|[link](/src/31/index.js)|medium|
 |32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[link](/src/32/index.js)|hard|
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[link](/src/33/index.js)|medium|
 |43|[ Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[link](/src/43/index.md)|medium|
