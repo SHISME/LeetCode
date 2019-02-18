@@ -1,6 +1,6 @@
 ## LeetCode
 
-当前进度:87
+当前进度:88
 
 | #   | Title                                                                                                                             | javascript                | Difficulty |
 | --- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | ---------- |
@@ -39,6 +39,7 @@
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)|[link](/src/34/index.js)|Medium|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/description/)|[link](/src/39/index.js)|Medium|
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/)|[link](/src/40/index.js)|Medium|
+|41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)|[link](/src/41/index.js)|Hard|
 |43|[ Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[link](/src/43/index.md)|medium|
 |46|[Permutations](https://leetcode.com/problems/permutations/)|[link](/src/46/index.js)|medium|
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[link](/src/48/index.js)|medium|
