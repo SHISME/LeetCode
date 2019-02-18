@@ -57,7 +57,7 @@
 var combinationSum2 = function(candidates, target) {
     const result = [];
     candidates.sort((a, b) => a - b);
-    console.log(candidates);
+    const result_map = {};
     foundResult(candidates.length - 1, target, []);
     function foundResult(index, target, cur_res) {
         for (let i = index; i >= 0; i--) {
@@ -65,10 +65,12 @@ var combinationSum2 = function(candidates, target) {
                 continue;
             }
             if (candidates[i] === target) {
-                result.push(([target]).concat(cur_res));
-                continue;
-            }
-            if (candidates[i - 1] === target - candidates[i]) {
+                const res = ([target]).concat(cur_res);
+                const key = res.join('_');
+                if (!result_map[key]) {
+                    result.push(res);
+                    result_map[key] = true;
+                }
                 continue;
             }
             foundResult(i - 1, target - candidates[i], [candidates[i]].concat(cur_res));
@@ -78,6 +80,7 @@ var combinationSum2 = function(candidates, target) {
 };
 
 console.log(combinationSum2([2,5,2,1,2], 5));
+console.log(combinationSum2([10,1,2,7,6,1,5], 8));
 
 module.exports = {
     id:'40',
