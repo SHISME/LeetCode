@@ -1,6 +1,6 @@
 ## LeetCode
 
-当前进度:88
+当前进度:89
 
 | #   | Title                                                                                                                             | javascript                | Difficulty |
 | --- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | ---------- |
@@ -41,6 +41,7 @@
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/)|[link](/src/40/index.js)|Medium|
 |41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)|[link](/src/41/index.js)|Hard|
 |43|[ Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[link](/src/43/index.md)|medium|
+|45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/description/)|[link](/src/45/index.js)|Hard|
 |46|[Permutations](https://leetcode.com/problems/permutations/)|[link](/src/46/index.js)|medium|
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[link](/src/48/index.js)|medium|
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[link](/src/54/index.js)|medium|
