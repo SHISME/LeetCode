@@ -1,6 +1,6 @@
 ## LeetCode
 
-当前进度:89
+当前进度:90
 
 | #   | Title                                                                                                                             | javascript                | Difficulty |
 | --- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | ---------- |
@@ -67,6 +67,7 @@
 |179|[ Largest Number ](https://leetcode.com/problems/largest-number/)|[link](/src/179/index.js)|medium|
 |188|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|[link](/src/188/index.md)|hard|
 |206|[ Reverse Linked List ](https://leetcode.com/problems/reverse-linked-list/)|[link](/src/206/index.js)|easy|
+|214|[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/description/)|[link](/src/214/index.md)|Hard|
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[link](/src/215/index.js)|medium|
 |224|[Basic Calculator](https://leetcode.com/problems/basic-calculator/)|[link](/src/224/index.js)|hard|
 |227|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[link](/src/227/index.js)|medium|

@@ -56,17 +56,22 @@ abababca  用一个suffix = 1指针指向 pattern[1]
 
 下一步，把后面字符串往后移一个，则suffix += 1 变成了
 
-|a|b|a|b|a|b|c|a| |
-| |a|b|a|b|a|b|c|a|
+| a   | b   | a   | b   | a   | b   | c   | a   |     |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|     | a   | b   | a   | b   | a   | b   | c   | a   |
+
 此时 pattern[suffix] = pattern[prefix]，此时 patternTable[suffix] = prefix + 1
 两个指针同时往后走， 此时 pattern[suffix] = pattern[prefix] 任然成立，此时 patternTable[suffix] = prefix + 1 = 2
 以此循环
 直到 suffix = 6, prefix = 4 才不等,这里我们知道前缀增长肯定是无法匹配的，我们需要把前缀缩短一点，
 到这时我们可以利用一下 kmp 后面需要用到的算法, 通过patternTable[3]我们可以知道pattern[0 - 3]是匹配的,我们把就prefix变为3发现还是不能匹配，
-依次往内收缩，直到 prefix 变为0为止，此时 pattern[suffix] = 0; suffix += 1；
+依次往内收缩，直到 prefix 变为0为止，此时 patternTable[suffix] = 0; suffix += 1；
 变成了
-|a|b|a|b|a|b|c|a| | | | | | | |
-| | | | | | | |a|b|a|b|a|b|c|a|
+
+| a   | b   | a   | b   | a   | b   | c   | a   |     |     |     |     |     |     |     |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|     |     |     |     |     |     |     | a   | b   | a   | b   | a   | b   | c   | a   |
+
 pattern[0] === pattern[1] 得到 patternTable[7] = 1
 
 轮到搜索str了，算法和这里的生成patternTable是一样的
