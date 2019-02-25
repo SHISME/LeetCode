@@ -1,6 +1,6 @@
 ## LeetCode
 
-当前进度:98
+当前进度:99
 
 | #   | Title                                                                                                                             | javascript                | Difficulty |
 | --- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | ---------- |
@@ -49,6 +49,7 @@
 |61|[Rotate List](https://leetcode.com/problems/rotate-list/description/)|[link](/src/61/index.js)|Medium|
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[link](/src/62/index.md)|medium|
 |70|[ Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[link](/src/70/index.js)|easy|
+|71|[Simplify Path](https://leetcode.com/problems/simplify-path/description/)|[link](/src/71/index.js)|Medium|
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[link](/src/78/index.js)|medium|
 |84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[link](/src/84/index.md)|hard|
 |85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)|[link](/src/85/index.js)|hard|
