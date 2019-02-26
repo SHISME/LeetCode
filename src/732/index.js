@@ -44,5 +44,5 @@ test_arr.forEach((item, index) => {
      id:'732',
      title:'My Calendar III',
      url:'https://leetcode.com/problems/my-calendar-iii/',
-     difficlty:'hard',
+     difficulty:'hard',
  }

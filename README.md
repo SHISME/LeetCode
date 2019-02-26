@@ -103,5 +103,5 @@
 |704|[Binary Search](https://leetcode.com/problems/binary-search/)|[link](/src/704/index.js)|easy|
 |729|[My Calendar I](https://leetcode.com/problems/my-calendar-i/)|[link](/src/729/index.js)|medium|
 |731|[My Calendar II](https://leetcode.com/problems/my-calendar-ii/)|[link](/src/731/index.js)|medium|
-|732|[My Calendar III](https://leetcode.com/problems/my-calendar-iii/)|[link](/src/732/index.js)|undefined|
+|732|[My Calendar III](https://leetcode.com/problems/my-calendar-iii/)|[link](/src/732/index.js)|hard|
 |887|[Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)|[link](/src/887/index.md)|hard|
