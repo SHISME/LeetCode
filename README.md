@@ -1,6 +1,6 @@
 ## LeetCode
 
-当前进度:101
+当前进度:102
 
 | #   | Title                                                                                                                             | javascript                | Difficulty |
 | --- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | ---------- |
@@ -100,6 +100,7 @@
 |518|[Coin Change 2](https://leetcode.com/problems/coin-change-2/description/)|[link](/src/518/index.js)|Medium|
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[link](/src/557/index.js)|easy|
 |611|[ Valid Triangle Number ](https://leetcode.com/problems/valid-triangle-number/)|[link](/src/611/index.js)|medium|
+|687|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/description/)|[link](/src/687/index.js)|Easy|
 |704|[Binary Search](https://leetcode.com/problems/binary-search/)|[link](/src/704/index.js)|easy|
 |729|[My Calendar I](https://leetcode.com/problems/my-calendar-i/)|[link](/src/729/index.js)|medium|
 |731|[My Calendar II](https://leetcode.com/problems/my-calendar-ii/)|[link](/src/731/index.js)|medium|
