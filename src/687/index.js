@@ -113,16 +113,8 @@ var longestUnivaluePath = function(root) {
         } else {
             rightMaxDepth = 0;
         }
-        if (
-            node.left &&
-            node.left.val === node.val && 
-            node.right &&
-            node.right.val === node.val
-        ) {
-            maxLength = Math.max(maxLength, leftMaxDepth + rightMaxDepth);
-        }
         const maxSubDepth = Math.max(leftMaxDepth, rightMaxDepth);
-        maxLength = Math.max(maxLength, maxSubDepth);
+        maxLength = Math.max(maxLength, leftMaxDepth + rightMaxDepth);
         return maxSubDepth;
     }
 };
