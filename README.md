@@ -1,6 +1,6 @@
 ## LeetCode
 
-当前进度:104
+当前进度:105
 
 | #   | Title                                                                                                                             | javascript                | Difficulty |
 | --- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | ---------- |
@@ -107,4 +107,5 @@
 |729|[My Calendar I](https://leetcode.com/problems/my-calendar-i/)|[link](/src/729/index.js)|medium|
 |731|[My Calendar II](https://leetcode.com/problems/my-calendar-ii/)|[link](/src/731/index.js)|medium|
 |732|[My Calendar III](https://leetcode.com/problems/my-calendar-iii/)|[link](/src/732/index.js)|hard|
+|779|[K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/description/)|[link](/src/779/index.js)|Medium|
 |887|[Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)|[link](/src/887/index.md)|hard|
