@@ -1,6 +1,6 @@
 ## LeetCode
 
-当前进度:106
+当前进度:107
 
 | #   | Title                                                                                                                             | javascript                | Difficulty |
 | --- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | ---------- |
@@ -110,3 +110,4 @@
 |779|[K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/description/)|[link](/src/779/index.js)|Medium|
 |794|[Valid Tic-Tac-Toe State](https://leetcode.com/problems/valid-tic-tac-toe-state/description/)|[link](/src/794/index.js)|Medium|
 |887|[Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)|[link](/src/887/index.md)|hard|
+|894|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/description/)|[link](/src/894/index.js)|Medium|
