@@ -39,7 +39,7 @@ function insert_to_table(token:any, item:RowItem):RowItem[]{
 program.option('-i, --id <id>','The leetcode No', (id) => {
     const readMe = fs.readFileSync('./README.md').toString();
     const tokens = marked.lexer(readMe);
-    const table_token = tokens[3];
+    const table_token = tokens[6];
     const item:RowItem = require('./src/' + id + '/index.js');
     const table_data = insert_to_table(table_token, item);
     const md_table_str = table_data.reduce((res, cur) => {
@@ -49,10 +49,18 @@ program.option('-i, --id <id>','The leetcode No', (id) => {
         }
         return res + row;
     }, '');
-    const md_tempalte = fs.readFileSync('./README_TEMPLATE.md').toString();
-    let new_readme_str = md_tempalte.replace('[table_data]', md_table_str);
-    new_readme_str = new_readme_str.replace('[total]', table_data.length.toString());
-    fs.writeFile('./README.md', new_readme_str, (err) => {
+
+    const classificationData = table_data.reduce((res:any, cur) => {
+        res[cur.difficulty.toLowerCase()] ++;
+        return res;
+    }, {hard:0, easy:0, medium:0});
+
+    let md_tempalte = fs.readFileSync('./README_TEMPLATE.md').toString();
+    md_tempalte = md_tempalte.replace('[easy]', classificationData['easy']);
+    md_tempalte = md_tempalte.replace('[medium]', classificationData['medium']);
+    md_tempalte = md_tempalte.replace('[hard]', classificationData['hard']);
+    md_tempalte = md_tempalte.replace('[table_data]', md_table_str);
+    fs.writeFile('./README.md', md_tempalte, (err) => {
         if (err) {
             console.error(err);
             return;

@@ -1,6 +1,14 @@
 ## LeetCode
 
-当前进度:110
+### 进度
+
+![](https://leetcode-badge.chyroc.cn/?name=shisme&leetcode_badge_style=Solved/Total-{{.solved_question}}/{{.all_question}}-green.svg)
+
+| Easy   | Medium   | Hard   |
+| ------ | -------- | ------ |
+| 30 | 58 | 22 |
+
+### 答案
 
 | #   | Title                                                                                                                             | javascript                | Difficulty |
 | --- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | ---------- |
