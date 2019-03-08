@@ -1,6 +1,6 @@
 ## LeetCode
 
-当前进度:109
+当前进度:110
 
 | #   | Title                                                                                                                             | javascript                | Difficulty |
 | --- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | ---------- |
@@ -37,6 +37,7 @@
 |32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[link](/src/32/index.js)|hard|
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[link](/src/33/index.js)|medium|
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)|[link](/src/34/index.js)|Medium|
+|36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/)|[link](/src/36/index.js)|Medium|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/description/)|[link](/src/39/index.js)|Medium|
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/)|[link](/src/40/index.js)|Medium|
 |41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)|[link](/src/41/index.js)|Hard|
