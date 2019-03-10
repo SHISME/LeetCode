@@ -6,7 +6,7 @@
 
 | Easy   | Medium   | Hard   |
 | ------ | -------- | ------ |
-| 30 | 58 | 22 |
+| 30 | 59 | 22 |
 
 ### 答案
 
@@ -55,6 +55,7 @@
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[link](/src/48/index.js)|medium|
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)|[link](/src/49/index.js)|Medium|
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[link](/src/54/index.js)|medium|
+|56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)|[link](/src/56/index.js)|Medium|
 |61|[Rotate List](https://leetcode.com/problems/rotate-list/description/)|[link](/src/61/index.js)|Medium|
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[link](/src/62/index.md)|medium|
 |70|[ Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[link](/src/70/index.js)|easy|
