@@ -6,7 +6,7 @@
 
 | Easy   | Medium   | Hard   |
 | ------ | -------- | ------ |
-| 30 | 59 | 22 |
+| 30 | 59 | 23 |
 
 ### 答案
 
@@ -46,6 +46,7 @@
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[link](/src/33/index.js)|medium|
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)|[link](/src/34/index.js)|Medium|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/)|[link](/src/36/index.js)|Medium|
+|37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/)|[link](/src/37/index.js)|Hard|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/description/)|[link](/src/39/index.js)|Medium|
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/)|[link](/src/40/index.js)|Medium|
 |41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)|[link](/src/41/index.js)|Hard|
