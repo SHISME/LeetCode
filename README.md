@@ -6,7 +6,7 @@
 
 | Easy   | Medium   | Hard   |
 | ------ | -------- | ------ |
-| 30 | 59 | 23 |
+| 30 | 59 | 24 |
 
 ### 答案
 
@@ -50,6 +50,7 @@
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/description/)|[link](/src/39/index.js)|Medium|
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/)|[link](/src/40/index.js)|Medium|
 |41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)|[link](/src/41/index.js)|Hard|
+|42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/)|[link](/src/42/index.js)|Hard|
 |43|[ Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[link](/src/43/index.md)|medium|
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/description/)|[link](/src/45/index.js)|Hard|
 |46|[Permutations](https://leetcode.com/problems/permutations/)|[link](/src/46/index.js)|medium|
