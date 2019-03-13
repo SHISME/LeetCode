@@ -6,7 +6,7 @@
 
 | Easy   | Medium   | Hard   |
 | ------ | -------- | ------ |
-| 30 | 60 | 24 |
+| 30 | 61 | 24 |
 
 ### 答案
 
@@ -54,6 +54,7 @@
 |43|[ Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[link](/src/43/index.md)|medium|
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/description/)|[link](/src/45/index.js)|Hard|
 |46|[Permutations](https://leetcode.com/problems/permutations/)|[link](/src/46/index.js)|medium|
+|47|[Permutations II](https://leetcode.com/problems/permutations-ii/description/)|[link](/src/47/index.js)|Medium|
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[link](/src/48/index.js)|medium|
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)|[link](/src/49/index.js)|Medium|
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[link](/src/54/index.js)|medium|
