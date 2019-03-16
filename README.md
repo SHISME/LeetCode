@@ -6,7 +6,7 @@
 
 | Easy   | Medium   | Hard   |
 | ------ | -------- | ------ |
-| 30 | 62 | 28 |
+| 30 | 63 | 28 |
 
 ### 答案
 
@@ -108,6 +108,7 @@
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/description/)|[link](/src/279/index.js)|Medium|
 |292|[Nim Game](https://leetcode.com/problems/nim-game/)|[link](/src/292/index.js)|easy|
 |295|[ Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|[link](/src/295/index.js)|hard|
+|300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)|[link](/src/300/index.js)|Medium|
 |309|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|[link](/src/309/index.md)|medium|
 |322|[Coin Change](https://leetcode.com/problems/coin-change/description/)|[link](/src/322/index.js)|Medium|
 |329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|[link](/src/329/index.md)|hard|
