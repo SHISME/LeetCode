@@ -6,7 +6,7 @@
 
 | Easy   | Medium   | Hard   |
 | ------ | -------- | ------ |
-| 31 | 65 | 30 |
+| 32 | 65 | 30 |
 
 ### 答案
 
@@ -73,6 +73,7 @@
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[link](/src/78/index.js)|medium|
 |84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[link](/src/84/index.md)|hard|
 |85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)|[link](/src/85/index.js)|hard|
+|88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)|[link](/src/88/index.js)|Easy|
 |89|[Gray Code](https://leetcode.com/problems/gray-code/)|[link](/src/89/index.md)|medium|
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)|[link](/src/94/index.js)|Medium|
 |95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/description/)|[link](/src/95/index.js)|Medium|
