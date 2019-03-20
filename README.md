@@ -6,7 +6,7 @@
 
 | Easy   | Medium   | Hard   |
 | ------ | -------- | ------ |
-| 33 | 65 | 30 |
+| 34 | 65 | 30 |
 
 ### 答案
 
@@ -102,6 +102,7 @@
 |213|[House Robber II](https://leetcode.com/problems/house-robber-ii/description/)|[link](/src/213/index.js)|Medium|
 |214|[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/description/)|[link](/src/214/index.md)|Hard|
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[link](/src/215/index.js)|medium|
+|217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)|[link](/src/217/index.js)|Easy|
 |224|[Basic Calculator](https://leetcode.com/problems/basic-calculator/)|[link](/src/224/index.js)|hard|
 |227|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[link](/src/227/index.js)|medium|
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[link](/src/230/index.js)|medium|
