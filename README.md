@@ -6,7 +6,7 @@
 
 | Easy   | Medium   | Hard   |
 | ------ | -------- | ------ |
-| 34 | 65 | 30 |
+| 34 | 65 | 31 |
 
 ### 答案
 
@@ -95,6 +95,7 @@
 |155|[Min Stack](https://leetcode.com/problems/min-stack/#/description)|[link](/src/155/index.js)|easy|
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[link](/src/160/index.js)|easy|
 |169|[Majority Element](https://leetcode.com/problems/majority-element/)|[link](/src/169/index.js)|easy|
+|174|[Dungeon Game](https://leetcode.com/problems/dungeon-game/description/)|[link](/src/174/index.js)|Hard|
 |179|[ Largest Number ](https://leetcode.com/problems/largest-number/)|[link](/src/179/index.js)|medium|
 |188|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|[link](/src/188/index.md)|hard|
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/description/)|[link](/src/189/index.js)|Easy|
