@@ -6,7 +6,7 @@
 
 | Easy   | Medium   | Hard   |
 | ------ | -------- | ------ |
-| 34 | 65 | 33 |
+| 34 | 66 | 33 |
 
 ### 答案
 
@@ -69,6 +69,7 @@
 |70|[ Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[link](/src/70/index.js)|easy|
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path/description/)|[link](/src/71/index.js)|Medium|
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance/description/)|[link](/src/72/index.js)|Hard|
+|75|[Sort Colors](https://leetcode.com/problems/sort-colors/description/)|[link](/src/75/index.js)|Medium|
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)|[link](/src/76/index.js)|Hard|
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[link](/src/78/index.js)|medium|
 |84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[link](/src/84/index.md)|hard|
