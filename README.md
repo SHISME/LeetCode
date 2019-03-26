@@ -6,7 +6,7 @@
 
 | Easy   | Medium   | Hard   |
 | ------ | -------- | ------ |
-| 34 | 66 | 33 |
+| 34 | 67 | 33 |
 
 ### 答案
 
@@ -61,6 +61,7 @@
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)|[link](/src/49/index.js)|Medium|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)|[link](/src/53/index.js)|Easy|
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[link](/src/54/index.js)|medium|
+|55|[Jump Game](https://leetcode.com/problems/jump-game/description/)|[link](/src/55/index.js)|Medium|
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)|[link](/src/56/index.js)|Medium|
 |57|[Insert Interval](https://leetcode.com/problems/insert-interval/description/)|[link](/src/57/index.js)|Hard|
 |59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/)|[link](/src/59/index.md)|Medium|
