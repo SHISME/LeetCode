@@ -6,7 +6,7 @@
 
 | Easy   | Medium   | Hard   |
 | ------ | -------- | ------ |
-| 34 | 67 | 33 |
+| 34 | 68 | 33 |
 
 ### 答案
 
@@ -144,5 +144,6 @@
 |732|[My Calendar III](https://leetcode.com/problems/my-calendar-iii/)|[link](/src/732/index.js)|hard|
 |779|[K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/description/)|[link](/src/779/index.js)|Medium|
 |794|[Valid Tic-Tac-Toe State](https://leetcode.com/problems/valid-tic-tac-toe-state/description/)|[link](/src/794/index.js)|Medium|
+|881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/description/)|[link](/src/881/index.js)|Medium|
 |887|[Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)|[link](/src/887/index.md)|hard|
 |894|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/description/)|[link](/src/894/index.js)|Medium|
