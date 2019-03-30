@@ -6,7 +6,7 @@
 
 | Easy   | Medium   | Hard   |
 | ------ | -------- | ------ |
-| 34 | 68 | 33 |
+| 34 | 69 | 33 |
 
 ### 答案
 
@@ -117,6 +117,7 @@
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[link](/src/239/index.js)|hard|
 |240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/description/)|[link](/src/240/index.js)|Medium|
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/description/)|[link](/src/279/index.js)|Medium|
+|287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)|[link](/src/287/index.js)|Medium|
 |292|[Nim Game](https://leetcode.com/problems/nim-game/)|[link](/src/292/index.js)|easy|
 |295|[ Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|[link](/src/295/index.js)|hard|
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)|[link](/src/300/index.js)|Medium|
