@@ -6,7 +6,7 @@
 
 | Easy   | Medium   | Hard   |
 | ------ | -------- | ------ |
-| 34 | 69 | 33 |
+| 34 | 69 | 34 |
 
 ### 答案
 
@@ -136,6 +136,7 @@
 |518|[Coin Change 2](https://leetcode.com/problems/coin-change-2/description/)|[link](/src/518/index.js)|Medium|
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[link](/src/557/index.js)|easy|
 |611|[ Valid Triangle Number ](https://leetcode.com/problems/valid-triangle-number/)|[link](/src/611/index.js)|medium|
+|632|[Smallest Range](https://leetcode.com/problems/smallest-range/description/)|[link](/src/632/index.js)|Hard|
 |687|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/description/)|[link](/src/687/index.js)|Easy|
 |698|[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/description/)|[link](/src/698/index.js)|Medium|
 |704|[Binary Search](https://leetcode.com/problems/binary-search/)|[link](/src/704/index.js)|easy|
