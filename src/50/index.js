@@ -49,23 +49,17 @@
  * @return {number}
  */
 var myPow = function(x, n) {
-    const isNegative = n < 0;
     if (n === 0) {
         return 1;
     }
-    n = Math.abs(n);
-    let res = 1;
-    while (n > 0) {
-        res *= x;
-        n--;
+    if (n < 0) {
+        n = -n;
+        x = 1 / x;
     }
-    if (isNegative) {
-        return 1 / res;
-    }
-    return res;
+    return (n % 2 === 0) ? myPow(x*x, n / 2) : x * myPow(x*x, Math.floor(n / 2));
 };
 
-console.log(myPow(2.00000, -2147483648));
+console.log(myPow(2.00000, -2147483648), Math.pow(2.00000, -2147483648));
 
 module.exports = {
     id:'50',

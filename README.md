@@ -6,7 +6,7 @@
 
 | Easy   | Medium   | Hard   |
 | ------ | -------- | ------ |
-| 35 | 70 | 35 |
+| 35 | 71 | 35 |
 
 ### 答案
 
@@ -59,6 +59,7 @@
 |47|[Permutations II](https://leetcode.com/problems/permutations-ii/description/)|[link](/src/47/index.js)|Medium|
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[link](/src/48/index.js)|medium|
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)|[link](/src/49/index.js)|Medium|
+|50|[Pow(x, n)](https://leetcode.com/problems/powx-n/description/)|[link](/src/50/index.js)|Medium|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)|[link](/src/53/index.js)|Easy|
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[link](/src/54/index.js)|medium|
 |55|[Jump Game](https://leetcode.com/problems/jump-game/description/)|[link](/src/55/index.js)|Medium|
