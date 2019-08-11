@@ -6,7 +6,7 @@
 
 | Easy   | Medium   | Hard   |
 | ------ | -------- | ------ |
-| 35 | 71 | 35 |
+| 36 | 71 | 35 |
 
 ### 答案
 
@@ -84,6 +84,7 @@
 |97|[Interleaving String](https://leetcode.com/problems/interleaving-string/description/)|[link](/src/97/index.js)|Hard|
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)|[link](/src/98/index.js)|Medium|
 |99|[Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/description/)|[link](/src/99/index.js)|Hard|
+|100|[Same Tree](https://leetcode.com/problems/same-tree/description/)|[link](/src/100/index.js)|Easy|
 |104|[ Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/solution/)|[link](/src/104/index.js)|easy|
 |108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[link](/src/108/index.js)|easy|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)|[link](/src/121/index.js)|Easy|
