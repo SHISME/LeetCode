@@ -126,15 +126,33 @@ var insertionSortList = function(head) {
 const { make_list_node, ListNode } = require('../utils');
 
 const test1 = make_list_node([0, 1]);
-// insertionSortList = function(head) {
-//     if (!head || !head.next) return head;
-//     const headTmp = new ListNode(null);
-//     headTmp.next = head;
-//     while (head) {
-//
-//     }
-//
-// }
+
+/**
+ * 思路2
+ *
+ * 1. 先手工做一个空队列的指针
+ * 2. 遍历这个空队列，往这个空队列里插节点
+ *
+ * @param head
+ * @returns {ListNode}
+ */
+insertionSortList = function(head) {
+  if (!head || !head.next) return head;
+  const tmpHead = new ListNode(null);
+  let headNode = tmpHead;
+  let cur = head;
+  while (cur) {
+    const next = cur.next;
+    while (headNode.next && headNode.next.val < cur.val) {
+      headNode = headNode.next;
+    }
+    cur.next = headNode.next;
+    headNode.next = cur;
+    headNode = tmpHead;
+    cur = next;
+  }
+  return tmpHead.next;
+}
 printNodeList(insertionSortList(test1));
 function printNodeList(head) {
   let cur = head;
