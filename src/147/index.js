@@ -65,56 +65,84 @@
  * @return {ListNode}
  */
 var insertionSortList = function(head) {
-    function getNodeByIndex(index) {
-      let cur = head;
-      while (index > 0) {
-        cur = cur.next;
-        index--;
-      }
-      return cur;
-    }
-    // Input: 4->2->1->3->5
+  function getListNodeLength(head) {
     let length = 0;
     let cur = head;
     while (cur) {
-        length++;
-        cur = cur.next;
+      length++;
+      cur = cur.next;
     }
-    let insertedTmp = head;
-    let insertedIndex = 0;
-    function insertHelp(index, insertedNode, insertedNodePre) {
-        let curIndex = 0;
-        let cur = head;
-        const insertedNodeNext= insertedNode.next;
-        while (curIndex < index) {
-            if (insertedNode.val < cur.val) {
-                if (insertedNodePre) {
-                    insertedNodePre.next = insertedNodeNext;
-                }
-                insertedNode.next = cur;
+    return length
+  }
+  let length = getListNodeLength(head);
+  let curHead = head;
 
-            }
+  let insertedTmp = head.next;
+  let insertedIndex = 1;
+  function insertHelp(insertedIndex, insertedNode, insertedNodePre) {
+    let curIndex = 0;
+    let cur = curHead;
+    let curPreNode = null;
+    while (curIndex < insertedIndex) {
+      if (insertedNode.val < cur.val) {
+        if (insertedNodePre) {
+          insertedNodePre.next = insertedNode.next;
         }
-    }
-    while (insertedIndex < length) {
-        let curIndex = insertedIndex;
-        let curPre = null;
-        let cur = head;
-        while (curIndex > 0) {
-            curPre = cur;
-            cur = cur.next;
-            curIndex--;
+        insertedNode.next = cur;
+        curIndex = insertedIndex;
+        if (curPreNode) {
+          curPreNode.next = insertedNode;
+        } else {
+          curHead = insertedNode;
         }
-        insertedIndex ++;
+        curIndex = insertedIndex;
+      }
+      curPreNode =  cur;
+      cur = cur.next;
+      curIndex++;
     }
-
+  }
+  function getPreNode(index) {
+    let pre = null;
+    let curIndex = 0;
+    let cur = curHead;
+    while (curIndex < index) {
+      pre = cur;
+      cur = cur.next;
+      curIndex++;
+    }
+    return pre;
+  }
+  while (insertedIndex < length) {
+    const insertedPreNode = getPreNode(insertedIndex);
+    const next = insertedTmp.next;
+    insertHelp(insertedIndex, insertedTmp, insertedPreNode);
+    insertedTmp = next;
+    insertedIndex ++;
+  }
+  return curHead;
 };
 
-const { make_list_node } = require('../utils')
+const { make_list_node, ListNode } = require('../utils');
 
-const test1 = make_list_node([4, 2, 1, 3]);
-insertionSortList(test1);
-
+const test1 = make_list_node([0, 1]);
+// insertionSortList = function(head) {
+//     if (!head || !head.next) return head;
+//     const headTmp = new ListNode(null);
+//     headTmp.next = head;
+//     while (head) {
+//
+//     }
+//
+// }
+printNodeList(insertionSortList(test1));
+function printNodeList(head) {
+  let cur = head;
+  while(cur) {
+    console.log(cur.val);
+    cur = cur.next;
+  }
+}
 
 module.exports = {
     id:'147',

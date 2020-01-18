@@ -6,7 +6,7 @@
 
 | Easy   | Medium   | Hard   |
 | ------ | -------- | ------ |
-| 36 | 71 | 35 |
+| 36 | 72 | 35 |
 
 ### 答案
 
@@ -95,6 +95,7 @@
 |141|[Linked List Cycle ](https://leetcode.com/problems/linked-list-cycle/)|[link](/src/141/index.js)|easy|
 |142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[link](/src/142/index.js)|medium|
 |146|[ LRU Cache ](https://leetcode.com/problems/lru-cache/)|[link](/src/146/index.js)|hard|
+|147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/)|[link](/src/147/index.js)|Medium|
 |148|[Sort List](https://leetcode.com/problems/sort-list/)|[link](/src/148/index.md)|medium|
 |155|[Min Stack](https://leetcode.com/problems/min-stack/#/description)|[link](/src/155/index.js)|easy|
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[link](/src/160/index.js)|easy|
