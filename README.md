@@ -6,7 +6,7 @@
 
 | Easy   | Medium   | Hard   |
 | ------ | -------- | ------ |
-| 36 | 73 | 36 |
+| 36 | 74 | 36 |
 
 ### 答案
 
@@ -106,6 +106,7 @@
 |179|[ Largest Number ](https://leetcode.com/problems/largest-number/)|[link](/src/179/index.js)|medium|
 |188|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|[link](/src/188/index.md)|hard|
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/description/)|[link](/src/189/index.js)|Easy|
+|199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)|[link](/src/199/index.js)|Medium|
 |206|[ Reverse Linked List ](https://leetcode.com/problems/reverse-linked-list/)|[link](/src/206/index.js)|easy|
 |213|[House Robber II](https://leetcode.com/problems/house-robber-ii/description/)|[link](/src/213/index.js)|Medium|
 |214|[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/description/)|[link](/src/214/index.md)|Hard|
