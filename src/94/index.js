@@ -58,6 +58,27 @@ var inorderTraversal = function(root) {
     }
 };
 
+const { make_tree } = require('../utils');
+const [ root ] = make_tree([1,null,2,3], [0]);
+inorderTraversal = function (root) {
+    if (!root) {
+        return []
+    }
+    let node = root;
+    const res = [];
+    const stack = [];
+    while (node || stack.length) {
+        while (node) {
+            stack.push(node);
+            node = node.left;
+        }
+        node = stack.pop();
+        res.push(node.val);
+        node = node.right;
+    }
+    return res;
+}
+console.log(inorderTraversal(root));
 module.exports = {
     id:'94',
     title:'Binary Tree Inorder Traversal',
