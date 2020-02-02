@@ -6,7 +6,7 @@
 
 | Easy   | Medium   | Hard   |
 | ------ | -------- | ------ |
-| 36 | 73 | 35 |
+| 36 | 73 | 36 |
 
 ### 答案
 
@@ -95,6 +95,7 @@
 |141|[Linked List Cycle ](https://leetcode.com/problems/linked-list-cycle/)|[link](/src/141/index.js)|easy|
 |142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[link](/src/142/index.js)|medium|
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)|[link](/src/144/index.js)|Medium|
+|145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)|[link](/src/145/index.js)|Hard|
 |146|[ LRU Cache ](https://leetcode.com/problems/lru-cache/)|[link](/src/146/index.js)|hard|
 |147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/)|[link](/src/147/index.js)|Medium|
 |148|[Sort List](https://leetcode.com/problems/sort-list/)|[link](/src/148/index.md)|medium|
