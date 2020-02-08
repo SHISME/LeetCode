@@ -6,7 +6,7 @@
 
 | Easy   | Medium   | Hard   |
 | ------ | -------- | ------ |
-| 36 | 75 | 36 |
+| 36 | 76 | 36 |
 
 ### 答案
 
@@ -68,6 +68,7 @@
 |59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/)|[link](/src/59/index.md)|Medium|
 |61|[Rotate List](https://leetcode.com/problems/rotate-list/description/)|[link](/src/61/index.js)|Medium|
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[link](/src/62/index.md)|medium|
+|63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/)|[link](/src/63/index.js)|Medium|
 |70|[ Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[link](/src/70/index.js)|easy|
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path/description/)|[link](/src/71/index.js)|Medium|
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance/description/)|[link](/src/72/index.js)|Hard|
