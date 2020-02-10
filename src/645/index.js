@@ -44,8 +44,26 @@
  * @return {number[]}
  */
 var findErrorNums = function(nums) {
-    
+    const map = {};
+    let dup = -1;
+    let missing = 1;
+    nums.forEach((num) => {
+        if (map[num]) {
+            dup = num;
+        }
+        map[num] = true;
+    });
+    for (let i = 0; i < nums.length; i++) {
+        if (!map[i + 1]) {
+            missing = i + 1;
+            break;
+        }
+    }
+    return [dup, missing]
 };
+
+console.log(findErrorNums([2,2]))
+console.log(findErrorNums([1,1]))
 
 module.exports = {
     id:'645',
