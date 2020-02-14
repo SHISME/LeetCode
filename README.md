@@ -6,7 +6,7 @@
 
 | Easy   | Medium   | Hard   |
 | ------ | -------- | ------ |
-| 37 | 79 | 36 |
+| 37 | 80 | 36 |
 
 ### 答案
 
@@ -157,6 +157,7 @@
 |729|[My Calendar I](https://leetcode.com/problems/my-calendar-i/)|[link](/src/729/index.js)|medium|
 |731|[My Calendar II](https://leetcode.com/problems/my-calendar-ii/)|[link](/src/731/index.js)|medium|
 |732|[My Calendar III](https://leetcode.com/problems/my-calendar-iii/)|[link](/src/732/index.js)|hard|
+|739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)|[link](/src/739/index.js)|Medium|
 |779|[K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/description/)|[link](/src/779/index.js)|Medium|
 |794|[Valid Tic-Tac-Toe State](https://leetcode.com/problems/valid-tic-tac-toe-state/description/)|[link](/src/794/index.js)|Medium|
 |828|[Unique Letter String](https://leetcode.com/problems/unique-letter-string/description/)|[link](/src/828/index.js)|Hard|
