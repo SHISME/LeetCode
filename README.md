@@ -6,7 +6,7 @@
 
 | Easy   | Medium   | Hard   |
 | ------ | -------- | ------ |
-| 37 | 82 | 36 |
+| 37 | 83 | 36 |
 
 ### 答案
 
@@ -82,6 +82,7 @@
 |85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)|[link](/src/85/index.js)|hard|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)|[link](/src/88/index.js)|Easy|
 |89|[Gray Code](https://leetcode.com/problems/gray-code/)|[link](/src/89/index.md)|medium|
+|91|[Decode Ways](https://leetcode.com/problems/decode-ways/description/)|[link](/src/91/index.js)|Medium|
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)|[link](/src/94/index.js)|Medium|
 |95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/description/)|[link](/src/95/index.js)|Medium|
 |96|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/description/)|[link](/src/96/index.js)|Medium|
