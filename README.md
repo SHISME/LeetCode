@@ -6,7 +6,7 @@
 
 | Easy   | Medium   | Hard   |
 | ------ | -------- | ------ |
-| 38 | 85 | 36 |
+| 38 | 86 | 36 |
 
 ### 答案
 
@@ -75,6 +75,7 @@
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance/description/)|[link](/src/72/index.js)|Hard|
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/description/)|[link](/src/75/index.js)|Medium|
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)|[link](/src/76/index.js)|Hard|
+|77|[Combinations](https://leetcode.com/problems/combinations/description/)|[link](/src/77/index.js)|Medium|
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[link](/src/78/index.js)|medium|
 |80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/)|[link](/src/80/index.js)|Medium|
 |82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)|[link](/src/82/index.js)|Medium|
