@@ -6,7 +6,7 @@
 
 | Easy   | Medium   | Hard   |
 | ------ | -------- | ------ |
-| 38 | 86 | 36 |
+| 38 | 87 | 36 |
 
 ### 答案
 
@@ -77,6 +77,7 @@
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)|[link](/src/76/index.js)|Hard|
 |77|[Combinations](https://leetcode.com/problems/combinations/description/)|[link](/src/77/index.js)|Medium|
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[link](/src/78/index.js)|medium|
+|79|[Word Search](https://leetcode.com/problems/word-search/description/)|[link](/src/79/index.js)|Medium|
 |80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/)|[link](/src/80/index.js)|Medium|
 |82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)|[link](/src/82/index.js)|Medium|
 |84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[link](/src/84/index.md)|hard|
