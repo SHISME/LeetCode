@@ -6,7 +6,7 @@
 
 | Easy   | Medium   | Hard   |
 | ------ | -------- | ------ |
-| 38 | 87 | 36 |
+| 39 | 87 | 36 |
 
 ### 答案
 
@@ -173,3 +173,4 @@
 |881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/description/)|[link](/src/881/index.js)|Medium|
 |887|[Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)|[link](/src/887/index.md)|hard|
 |894|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/description/)|[link](/src/894/index.js)|Medium|
+|994|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[link](/src/994/index.js)|easy|
