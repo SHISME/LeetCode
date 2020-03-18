@@ -53,10 +53,15 @@
  * @return {string}
  */
 var convertToTitle = function(n) {
-    const map = {
-        1:
+    let res = '';
+    while (n > 0) {
+        const cur = n % 26 || 26;
+        res = String.fromCharCode(cur + 64) + res;
+        n = Math.floor((n - cur) / 26);
     }
+    return res;
 };
+console.log(convertToTitle(701))
 
 module.exports = {
     id:'168',
