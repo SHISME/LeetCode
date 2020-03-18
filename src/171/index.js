@@ -53,8 +53,16 @@
  * @return {number}
  */
 var titleToNumber = function(s) {
-    
+    let res = 0;
+    let cur = 1;
+    for (let i = s.length - 1; i >= 0; i--) {
+        res += (s.charCodeAt(i) - 64) * cur;
+        cur *= 26;
+    }
+    return res;
 };
+
+console.log(titleToNumber('ZY'));
 
 module.exports = {
     id:'171',
