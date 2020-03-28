@@ -25,12 +25,8 @@ var longestPalindrome = function(s) {
     }
   }
   for (let i = 1; i < s.length; i++) {
-    let left = i - 1;
-    let right = i;
-    longestPalindromeHelper(left, right);
-    left = i - 1;
-    right = i + 1;
-    longestPalindromeHelper(left, right)
+    longestPalindromeHelper(i - 1, i);
+    longestPalindromeHelper(i - 1, i + 1)
   }
   return res;
 };
