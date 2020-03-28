@@ -11,40 +11,28 @@
  * @return {string}
  */
 var longestPalindrome = function(s) {
-    var s_arr = s.split('');
-
-    if (s_arr.length < 2) {
-        return s;
+  if (s.length < 2) {
+    return s;
+  }
+  let res = '';
+  function longestPalindromeHelper(left, right) {
+    while (s[left] && s[left] === s[right]) {
+      left--;
+      right++;
     }
-    let i = 0;
-    let result = [0, 0];
-    while (i < s_arr.length) {
-        let left = i - 1;
-        let right = i + 1;
-        while (s_arr[left] === s_arr[right] && s_arr[left] != undefined) {
-            left--;
-            right++;
-        }
-    
-        if (right - left - 2 > result[1] - result[0]) {
-            result[0] = left + 1;
-            result[1] = right - 1;
-        }
-        if (s_arr[i] === s_arr[i +1]) {
-            let left = i - 1;
-            let right = i + 2;
-            while (s_arr[left] === s_arr[right] && s_arr[left] != undefined) {
-                left--;
-                right++;
-            }
-            if (right-left - 2 > result[1] - result[0]) {
-                result[0] = left + 1;
-                result[1] = right - 1;
-            }
-        }
-        i++;
+    if (res.length < right - left - 1) {
+      res = s.slice(left + 1, right)
     }
-    return s.slice(result[0], result[1] + 1);
+  }
+  for (let i = 1; i < s.length; i++) {
+    let left = i - 1;
+    let right = i;
+    longestPalindromeHelper(left, right);
+    left = i - 1;
+    right = i + 1;
+    longestPalindromeHelper(left, right)
+  }
+  return res;
 };
 
 /**
