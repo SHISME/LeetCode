@@ -2,7 +2,7 @@ const { ListNode } = require('../utils');
 
 const head = new ListNode(1);
 head.next = new ListNode(2);
-// head.next.next = head;
+head.next.next = head;
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -25,6 +25,26 @@ var detectCycle = function(head) {
         }
     }
     return null;
+};
+detectCycle = function(head) {
+  let quick = head;
+  let slow = head;
+  while (quick) {
+      quick = quick.next ? quick.next.next : null;
+      slow = slow.next;
+      if (quick === slow && quick !== null) {
+          break;
+      }
+  }
+  if (!quick) {
+      return null
+  }
+  quick = head;
+  while (quick !== slow) {
+      quick = quick.next;
+      slow = slow.next;
+  }
+  return quick;
 };
 
 console.log(detectCycle(head));
