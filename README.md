@@ -6,7 +6,7 @@
 
 | Easy   | Medium   | Hard   |
 | ------ | -------- | ------ |
-| 39 | 87 | 36 |
+| 40 | 87 | 36 |
 
 ### 答案
 
@@ -93,6 +93,7 @@
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)|[link](/src/98/index.js)|Medium|
 |99|[Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/description/)|[link](/src/99/index.js)|Hard|
 |100|[Same Tree](https://leetcode.com/problems/same-tree/description/)|[link](/src/100/index.js)|Easy|
+|101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/)|[link](/src/101/index.js)|Easy|
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)|[link](/src/102/index.js)|Medium|
 |103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)|[link](/src/103/index.js)|Medium|
 |104|[ Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/solution/)|[link](/src/104/index.js)|easy|
