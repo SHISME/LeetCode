@@ -6,7 +6,7 @@
 
 | Easy   | Medium   | Hard   |
 | ------ | -------- | ------ |
-| 40 | 87 | 36 |
+| 42 | 87 | 36 |
 
 ### 答案
 
@@ -46,6 +46,7 @@
 |32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[link](/src/32/index.js)|hard|
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[link](/src/33/index.js)|medium|
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)|[link](/src/34/index.js)|Medium|
+|35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)|[link](/src/35/index.js)|Easy|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/)|[link](/src/36/index.js)|Medium|
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/)|[link](/src/37/index.js)|Hard|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/description/)|[link](/src/39/index.js)|Medium|
@@ -157,6 +158,7 @@
 |518|[Coin Change 2](https://leetcode.com/problems/coin-change-2/description/)|[link](/src/518/index.js)|Medium|
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[link](/src/557/index.js)|easy|
 |611|[ Valid Triangle Number ](https://leetcode.com/problems/valid-triangle-number/)|[link](/src/611/index.js)|medium|
+|628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/)|[link](/src/628/index.js)|Easy|
 |632|[Smallest Range](https://leetcode.com/problems/smallest-range/description/)|[link](/src/632/index.js)|Hard|
 |645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/description/)|[link](/src/645/index.js)|Easy|
 |687|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/description/)|[link](/src/687/index.js)|Easy|

@@ -73,10 +73,10 @@ var reverseKGroup = function (head, k) {
  * @return {ListNode}
  */
 var reverseKGroup = function (head, k) {
-    let curr = head;
-    let i = 0;
-    while (curr && i != k) {
-        curr=curr.next;
+    let cur = head;
+    let i = 1;
+    while (cur && i < k) {
+        cur = cur.next;
         i++;
     }
     if (i === k) {
@@ -88,9 +88,7 @@ var reverseKGroup = function (head, k) {
             head = next_node;
             i--;
         }
-        head = temp_node;
     }
-    return head;
 }
 
 let test = make_list_node([1, 2, 3, 4,5]);
@@ -99,4 +97,19 @@ console.log(test);
 while (test) {
     console.log(test.val);
     test = test.next;
+}
+
+/**
+ * 
+ * @param {ListNode} head 
+ */
+function reverseNode(head) {
+    let tempNode = null;
+    while (head.next) {
+        let nextNode = head.next;
+        head.next = tempNode;
+        tempNode = head;
+        head = nextNode;
+    }
+    head.next = tempNode;
 }
