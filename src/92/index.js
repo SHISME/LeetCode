@@ -12,16 +12,16 @@
  * Testcase Example:  '[1,2,3,4,5]\n2\n4'
  *
  * Reverse a linked list from position m to n. Do it in one-pass.
- * 
+ *
  * Note: 1 ≤ m ≤ n ≤ length of list.
- * 
+ *
  * Example:
- * 
- * 
+ *
+ *
  * Input: 1->2->3->4->5->NULL, m = 2, n = 4
  * Output: 1->4->3->2->5->NULL
- * 
- * 
+ *
+ *
  */
 /**
  * Definition for singly-linked list.
@@ -36,7 +36,7 @@
  * @param {number} n
  * @return {ListNode}
  */
-var reverseBetween = function(head, m, n) {
+var reverseBetween1 = function(head, m, n) {
     if (!head || !head.next) {
         return head;
     }
@@ -80,9 +80,46 @@ var reverseBetween = function(head, m, n) {
     return result.next;
 };
 
+/**
+ * @param {ListNode} head
+ * @param {number} m
+ * @param {number} n
+ * @return {ListNode}
+ */
+var reverseBetween = (head, m, n) => {
+    if (!head || !head.next || m === n) {
+        return head;
+    }
+    let headTmp = head;
+    let i = 1;
+    let reverseLastNode = head;
+    while (i < m) {
+        reverseLastNode = headTmp;
+        headTmp = headTmp.next;
+        i++;
+    }
+    let reverseTmp = null;
+    const firstReverseNode = headTmp;
+    while (i < n) {
+        const next = headTmp.next;
+        headTmp.next = reverseTmp;
+        reverseTmp = headTmp;
+        headTmp = next;
+        i++;
+    }
+    reverseLastNode.next = headTmp;
+    firstReverseNode.next = headTmp.next;
+    headTmp.next = reverseTmp;
+
+    if (m === 1) {
+        return headTmp;
+    }
+    return head;
+}
+
 const { make_list_node, ListNode } = require('../utils');
 const node = make_list_node([1, 2, 3, 4, 5])
-let res = reverseBetween(node, 2, 4);
+let res = reverseBetween(node, 1, 1);
 while (res) {
     console.log(res.val);
     res = res.next;
