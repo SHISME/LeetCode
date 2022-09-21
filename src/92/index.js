@@ -86,7 +86,7 @@ var reverseBetween1 = function(head, m, n) {
  * @param {number} n
  * @return {ListNode}
  */
-var reverseBetween = (head, m, n) => {
+var reverseBetween2 = (head, m, n) => {
     if (!head || !head.next || m === n) {
         return head;
     }
@@ -118,8 +118,39 @@ var reverseBetween = (head, m, n) => {
 }
 
 const { make_list_node, ListNode } = require('../utils');
-const node = make_list_node([1, 2, 3, 4, 5])
-let res = reverseBetween(node, 1, 1);
+
+/**
+ * @param {ListNode} head
+ * @param {number} m
+ * @param {number} n
+ * @return {ListNode}
+ */
+var reverseBetween = (head, m, n) => {
+    if (!head || !head.next || m === n) {
+        return head;
+    }
+    const rest = new ListNode();
+    rest.next = head;
+    let i = 0;
+    let g = rest;
+    let p = rest.next;
+    while (i < m - 1) {
+        p = p.next;
+        g = g.next;
+        i ++;
+    }
+    while (i < n - 1) {
+        const removed = p.next;
+        p.next = removed.next;
+        removed.next = g.next;
+        g.next = removed;
+        i++;
+    }
+    return rest.next;
+}
+
+const node = make_list_node([3,5])
+let res = reverseBetween(node, 1, 2);
 while (res) {
     console.log(res.val);
     res = res.next;
